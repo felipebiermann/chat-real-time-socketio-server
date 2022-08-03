@@ -13,4 +13,5 @@ server.listen(SERVER_PORT, SERVER_HOST, () => {
   console.log(
     `[HTTP] Listen => Server is running at http://${SERVER_HOST}:${SERVER_PORT}`
   );
+  console.log("s");
 });
